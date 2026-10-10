@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Введите число: ");
+    scanf("%d", &n);
+
+    if (n%2 == 0){
+        printf("Чётное число\n");
+    }
+    else {
+        printf("Нечётное\n");
+    }
+
+    return 0;
+}
